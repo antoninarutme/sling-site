@@ -24,6 +24,7 @@ function result($num)
 
 
 session_start();
+include 'button.html';
 include 'pageTitle.html';
 
 $knotErr = "";

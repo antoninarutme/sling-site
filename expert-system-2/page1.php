@@ -34,7 +34,7 @@
 	session_start();
 	// $_SESSION['name'] = "temp";
 	 
-
+	include 'button.html';
 	include 'pageTitle.html';
 	//stores error messages 
 	
@@ -106,7 +106,7 @@
 		if(isset($_POST['previous']))
 		{
 			//if previous button is set(clicked) directs to index.php page
-			header('location: page1.php');
+			header('location: index.php');
 			exit();
 		}
 		
